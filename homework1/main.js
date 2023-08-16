@@ -49,6 +49,6 @@ console.log(typeof c1);
 
 let userName = prompt('Ваше Ім'+"'"+'я');
 let userLastName = prompt('Ваше прізвище');
-let userAge = prompt('Ваш вік');
-let person1 = userName +' '+ userLastName +' '+ userAge;
-console.log(person1);
+let userAge = parseInt(prompt('Ваш вік'));
+let person1 = userName +' '+ userLastName +' ';
+console.log(person1,userAge);
