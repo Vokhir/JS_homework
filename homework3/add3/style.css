@@ -1,0 +1,12 @@
+.wrap {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.post-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
