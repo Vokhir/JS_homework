@@ -1,12 +1,12 @@
-.wrap {
+.users-box {
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr;
 }
-.user-block {
+.post-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: center;
 }

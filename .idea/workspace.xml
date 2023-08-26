@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16b74b37-6d14-4b17-ac92-f8e14150af01" name="Changes" comment="homework3">
-      <change afterPath="$PROJECT_DIR$/homework3/add3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework3/add3/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework3/add3/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework3/additional2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework3/additional2/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework3/additional3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework3/additional3/main.js" afterDir="false" />
+    <list default="true" id="16b74b37-6d14-4b17-ac92-f8e14150af01" name="Changes" comment="homework3+first and 3add additional tasks">
+      <change afterPath="$PROJECT_DIR$/homework3/additional2/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/add3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/add3/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/additional2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/additional2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/additional2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/additional2/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/additional3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/additional3/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,11 @@
       <workItem from="1692796891193" duration="1073000" />
       <workItem from="1692801413868" duration="19580000" />
       <workItem from="1692860720719" duration="2315000" />
-      <workItem from="1692892453123" duration="6814000" />
+      <workItem from="1692892453123" duration="11116000" />
+      <workItem from="1692944885662" duration="1248000" />
+      <workItem from="1692953616072" duration="561000" />
+      <workItem from="1692971132204" duration="10521000" />
+      <workItem from="1693051988240" duration="6399000" />
     </task>
     <task id="LOCAL-00001" summary="homework1">
       <created>1692195393767</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692833625765</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="homework3+first and 3add additional tasks">
+      <created>1692909562865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692909562865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +146,8 @@
     <MESSAGE value="homework1" />
     <MESSAGE value="homework2" />
     <MESSAGE value="homework3" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework3" />
+    <MESSAGE value="homework3+first and 3add additional tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework3+first and 3add additional tasks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

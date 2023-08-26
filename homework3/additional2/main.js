@@ -233,6 +233,67 @@ let usersList = [
 ];
 // За допомогою циклу вивести всю інформацію про користувачів використовуючи шаблон Template 1.1
 // * за допомоги стилів, побудувати сітку по 2 об'єкта в лінію
+document.write(`<div class="users-box">`)
+for (let i = 0; i < usersList.length; i++) {
+    const object = usersList[i];
+    document.write(`<div class="user-block">`);
+    document.write(`<h2>`);
+    for (const key in object) {
+        let value = object[key];
+        if (key === 'id') {
+            document.write(`${value} - `);
+        }
+        if (key === 'name') {
+            document.write(`${value} - `);
+        }
+        if (key === 'username') {
+            document.write(`${value}`);
+        }
+    }
+    document.write(`</h2>`);
+    document.write(`<div class="address-block">`);
+    for (const key in object) {
+        let value = object[key];
+        if (key === 'address') {
+            for (const key in value) {
+                let address = value[key];
+                if (key === 'city') {
+                    document.write(`<p>`);
+                    document.write(`City - ${address}`);
+                    document.write(`</p>`);
+                }
+            }
+            for (const key in value) {
+                let address = value[key];
+                if (key==='street') {
+                    document.write(`<p>`);
+                    document.write(`Street - ${address}`);
+                    document.write(`</p>`);
+                }
+            }
+            for (const key in value) {
+                let address = value[key];
+                if (key==='suite') {
+                    document.write(`<p>`);
+                    document.write(`Suite - ${address}`);
+                    document.write(`</p>`);
+                }
+            }
+            for (const key in value) {
+                let address = value[key];
+                if (key==='zipcode') {
+                    document.write(`<p>`);
+                    document.write(`Zip code - ${address}`);
+                    document.write(`</p>`);
+                }
+            }
+        }
+    }
+    document.write(`</div>`);
+    document.write(`</div>`);
+}
+document.write(`</div>`);
+
 // <div class="users-box">
 //     <div class="user-block">
 //         <h2>ID - NAME - USERNAME </h2>
