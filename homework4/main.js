@@ -193,13 +193,17 @@ function sumNum(arrayOfNumbers) {
 sumNum(numArray);
 // - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 function swap(arr,index1,index2) {
-    let temporary = arr[index2];
-    arr[index2] = arr[index1];
-    arr[index1] = temporary;
-    return console.log(arr);
+    if (index1 < arr.length && index2 < arr.length) {
+        let temporary = arr[index2];
+        arr[index2] = arr[index1];
+        arr[index1] = temporary;
+        return console.log(arr);
+    } else {
+        return console.log('Indexes should be lower than '+arr.length);
+    }
 }
 
-swap(numArray, 2, 4);
+swap(numArray, 3, 6);
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 function exchange(sumUAH,currencyValues,exchangeCurrency) {
