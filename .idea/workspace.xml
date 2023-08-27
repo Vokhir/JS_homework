@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16b74b37-6d14-4b17-ac92-f8e14150af01" name="Changes" comment="homework3+first and 3add additional tasks">
-      <change afterPath="$PROJECT_DIR$/homework3/additional2/style.css" afterDir="false" />
+    <list default="true" id="16b74b37-6d14-4b17-ac92-f8e14150af01" name="Changes" comment="homework3 + all the additional work">
+      <change afterPath="$PROJECT_DIR$/homework4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/add3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/add3/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/additional2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/additional2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/additional2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/additional2/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/additional3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/additional3/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -74,7 +71,8 @@
       <workItem from="1692944885662" duration="1248000" />
       <workItem from="1692953616072" duration="561000" />
       <workItem from="1692971132204" duration="10521000" />
-      <workItem from="1693051988240" duration="6399000" />
+      <workItem from="1693051988240" duration="15908000" />
+      <workItem from="1693157892494" duration="4196000" />
     </task>
     <task id="LOCAL-00001" summary="homework1">
       <created>1692195393767</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692909562865</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="homework3 + all the additional work">
+      <created>1693084977381</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693084977381</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +152,19 @@
     <MESSAGE value="homework2" />
     <MESSAGE value="homework3" />
     <MESSAGE value="homework3+first and 3add additional tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework3+first and 3add additional tasks" />
+    <MESSAGE value="homework3 + all the additional work" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework3 + all the additional work" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/homework4/main.js</url>
+          <line>135</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
