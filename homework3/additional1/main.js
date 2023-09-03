@@ -239,73 +239,66 @@ let books = [
 ];
 // -знайти наібльшу книжку.
 
-let largest = 0;
-for (i = 0; i < books.length; i++) {
-    let book = books[i];
-    if (largest<book.pagesCount) {
-        largest = book.pagesCount;
-    }
-}
-for (let i = 0; i < books.length; i++) {
-    const book = books[i];
-    if (book.pagesCount === largest) {
-        console.log(book.name);
-    }
-}
+// let largest = 0;
+// for (i = 0; i < books.length; i++) {
+//     let book = books[i];
+//     if (largest<book.pagesCount) {
+//         largest = book.pagesCount;
+//     }
+// }
+// for (let i = 0; i < books.length; i++) {
+//     const book = books[i];
+//     if (book.pagesCount === largest) {
+//         console.log(book.name);
+//     }
+// }
+
 // - знайти книжку/ки з найбільшою кількістю жанрів
-let longestList = 0;
-for (i = 0; i < books.length; i++) {
-    let book = books[i];
-    if (typeof book.genre !== "string") {
-        if (book.genre.length>longestList) {
-            longestList = book.genre.length;
-        }
-    }
-}
-for (let i = 0; i < books.length; i++) {
-    const book = books[i];
-    if (typeof book.genre !== "string") {
-        if (book.genre.length === longestList) {
-            console.log(book.name);
-        }
-    }
-}
+// let longestList = 0;
+// for (i = 0; i < books.length; i++) {
+//     let book = books[i];
+//     if (typeof book.genre !== "string") {
+//         if (book.genre.length>longestList) {
+//             longestList = book.genre.length;
+//         }
+//     }
+// }
+// for (let i = 0; i < books.length; i++) {
+//     const book = books[i];
+//     if (typeof book.genre !== "string") {
+//         if (book.genre.length === longestList) {
+//             console.log(book.name);
+//         }
+//     }
+// }
+
 // - знайти книжку/ки з найдовшою назвою
-let longestName = 0;
-for (i = 0; i < books.length; i++) {
-    let book = books[i];
-        if (book.name.length>longestName) {
-            longestName = book.name.length;
-        }
-}
-for (let i = 0; i < books.length; i++) {
-    const book = books[i];
-    if (book.name.length === longestName) {
-        console.log(book.name);
-    }
-}
+// let longestName = 0;
+// for (i = 0; i < books.length; i++) {
+//     let book = books[i];
+//         if (book.name.length>longestName) {
+//             longestName = book.name.length;
+//         }
+// }
+// for (let i = 0; i < books.length; i++) {
+//     const book = books[i];
+//     if (book.name.length === longestName) {
+//         console.log(book.name);
+//     }
+// }
+
 // - знайти книжку/ки які писали 2 автори
-let longestAuthors = 0;
 for (i = 0; i < books.length; i++) {
     let book = books[i];
-    if (typeof book.authors !== "string") {
-        if (book.genre.length>longestAuthors) {
-            longestAuthors = book.authors.length;
-        }
+    if (book.authors.length === 2) {
+        console.log(book.name)
     }
 }
-for (let i = 0; i < books.length; i++) {
-    const book = books[i];
-    if (typeof book.authors !== "string") {
-        if (book.authors.length === longestAuthors) {
-            console.log(book.name);
-        }
-    }
-}
+
 // - знайти книжку/ки які писав 1 автор
 for (i = 0; i < books.length; i++) {
     let book = books[i];
-    if (typeof book.authors === "string") {
+    if (typeof book.authors === 'string') {
         console.log(book.name);
     }
 }

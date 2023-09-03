@@ -167,7 +167,7 @@ info(usersList);
 let numArray = [1, 35, 3412, -34322, 0, -90000, 1000000];
 
 function minimalNum(arrayOfNumbers) {
-    let m = 0;
+    let m = arrayOfNumbers[0];
     let i = 0;
     while (i < arrayOfNumbers.length) {
         if (m > arrayOfNumbers[i]) {
@@ -193,7 +193,7 @@ function sumNum(arrayOfNumbers) {
 sumNum(numArray);
 // - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 function swap(arr,index1,index2) {
-    if (index1 < arr.length && index2 < arr.length) {
+    if (index1 && index2 < arr.length) {
         let temporary = arr[index2];
         arr[index2] = arr[index1];
         arr[index1] = temporary;
