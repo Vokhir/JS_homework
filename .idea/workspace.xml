@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16b74b37-6d14-4b17-ac92-f8e14150af01" name="Changes" comment="homework5 + corrections in hw3">
+    <list default="true" id="16b74b37-6d14-4b17-ac92-f8e14150af01" name="Changes" comment="homework6">
+      <change afterPath="$PROJECT_DIR$/mini-project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework6/main.js" afterDir="false" />
     </list>
@@ -43,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/JS_homework/homework6",
+    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/HTML_homework/controlwork/main.css",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,7 +86,12 @@
       <workItem from="1693051988240" duration="15908000" />
       <workItem from="1693157892494" duration="4639000" />
       <workItem from="1693172855197" duration="915000" />
-      <workItem from="1693757115152" duration="24582000" />
+      <workItem from="1693757115152" duration="25236000" />
+      <workItem from="1694357340901" duration="2238000" />
+      <workItem from="1694393064483" duration="613000" />
+      <workItem from="1694519441161" duration="1220000" />
+      <workItem from="1696268775795" duration="1643000" />
+      <workItem from="1696289637119" duration="2794000" />
     </task>
     <task id="LOCAL-00001" summary="homework1">
       <created>1692195393767</created>
@@ -158,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693774663050</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="homework6">
+      <created>1693795687072</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693795687072</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +203,8 @@
     <MESSAGE value="homework4" />
     <MESSAGE value="homework4(swap function corrected)" />
     <MESSAGE value="homework5 + corrections in hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework5 + corrections in hw3" />
+    <MESSAGE value="homework6" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

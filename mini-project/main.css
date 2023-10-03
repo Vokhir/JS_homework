@@ -1,0 +1,214 @@
+/*Стилизація проєкта -*/
+/*index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+body{
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.all_users {
+    height: 600px;
+    width: 450px;
+    border: 2px solid gold;
+    border-radius: 15px 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -225px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 3%;
+    align-items: center;
+    place-items: center;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+}
+.user {
+    height: 80px;
+    width: 200px;
+    border: 2px solid violet;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p_user{
+    font-size: 15px;
+    font-style: italic;
+    color: whitesmoke;
+}
+.button_1{
+    align-items: flex-start;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.button_1:hover{
+    background: black;
+    border: 1px solid #FFF;
+}
+
+/*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+
+.mainDiv {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_for_user {
+    height: 70vh;
+    width: 100%;
+    /*background-color: gold;*/
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+    position: relative;
+    margin: 0 auto;
+    clear: left;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 3%;
+    justify-content: center;
+    color: #FFF;
+    font-style: italic;
+}
+.h2user{
+    font-style: italic;;
+}
+.button2 {
+    width: 90vw;
+    margin-bottom: 5px;
+    align-items: flex-start;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.button2:hover{
+    background: black;
+    border: 1px solid #FFF;
+}
+
+/*блоки з короткою іфною про post - в ряд по 5 .*/
+
+.mainFPT{
+    height: 40vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1%;
+    align-items: center;
+    place-items: center;
+    margin: 4px;
+    color: #FFF;
+}
+
+.divFPT {
+    border: 2px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17vw;
+    height: 110px;
+    border-radius: 20px;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+}
+.pFPT{
+    text-align: center;
+    justify-content: center;
+    height: 80%;
+    width: 95%;
+}
+.button3 {
+    margin-bottom: 2px;
+    height: 15%;
+    width: 80%;
+    float: left;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+
+.mainDIV {
+    height: 102vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    overflow-y: hidden;
+}
+
+.divFP {
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+}
+
+.h2FP {
+    text-align: center;
+    font-style: italic;
+}
+
+.h3Comm{
+    text-align: center;
+    font-style: italic;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+    color: #FFFFFF;
+}
+
+.divComm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.divForComments {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 2%;
+    align-items: center;
+    place-items: center;
+    width: 95vw;
+}
+
+.divC {
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+}
+
+/*Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+
+

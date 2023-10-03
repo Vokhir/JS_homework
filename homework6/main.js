@@ -29,11 +29,7 @@
 
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 // let str = ' dirty string   ';
-// console.log(str.indexOf('d'));
-// console.log(str.indexOf('y'));
-// console.log(str.indexOf('s'));
-// console.log(str.indexOf('g'));
-// console.log(str.substring(1, 13));
+// console.log(str.trim());
 
 // - Напишіть функцію stringToArray(str), яка перетворює рядок на масив слів.
 // let str1 = 'Ревуть воли як ясла повні';
@@ -125,7 +121,7 @@ let cards = [
 ]
 
 // - знайти піковий туз
-// console.log(cards.filter(value => value.name === 'Ace' && value.suit === 'Spades'));
+// console.log(cards.find(value => value.name === 'Ace' && value.suit === 'Spades'));
 // - всі шістки
 // console.log(cards.filter(value => value.name === 6));
 // - всі червоні карти
@@ -230,7 +226,7 @@ let coursesArray = [
     }
 ];
 // --написати пошук всіх об'єктів, в який в modules є sass
-console.log(coursesArray.find(value => value.modules.find(value1 => value1 === 'sass')));
+console.log(coursesArray.find(value => value.modules.filter(value1 => value1 === 'sass')));
 
 // --написати пошук всіх об'єктів, в який в modules є docker
-console.log(coursesArray.find(value => value.modules.find(value1 => value1 === 'docker')));
+console.log(coursesArray.find(value => value.modules.filter(value1 => value1 === 'docker')));
